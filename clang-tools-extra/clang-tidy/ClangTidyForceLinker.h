@@ -137,6 +137,11 @@ extern volatile int ZirconModuleAnchorSource;
 static int LLVM_ATTRIBUTE_UNUSED ZirconModuleAnchorDestination =
     ZirconModuleAnchorSource;
 
+// This anchor is used to force the linker to link the DatadogRubyModule.
+extern volatile int DatadogRubyModuleAnchorSource;
+static int LLVM_ATTRIBUTE_UNUSED DatadogRubyModuleAnchorDestination =
+    DatadogRubyModuleAnchorSource;
+
 } // namespace clang::tidy
 
 #endif

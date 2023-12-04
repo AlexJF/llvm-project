@@ -202,6 +202,7 @@ Clang-Tidy Checks
    :doc:`cppcoreguidelines-virtual-class-destructor <cppcoreguidelines/virtual-class-destructor>`, "Yes"
    :doc:`darwin-avoid-spinlock <darwin/avoid-spinlock>`,
    :doc:`darwin-dispatch-once-nonstatic <darwin/dispatch-once-nonstatic>`, "Yes"
+   :doc:`datadogruby-dangerous-interactions <datadogruby/dangerous-interactions>`, "Yes"
    :doc:`fuchsia-default-arguments-calls <fuchsia/default-arguments-calls>`,
    :doc:`fuchsia-default-arguments-declarations <fuchsia/default-arguments-declarations>`, "Yes"
    :doc:`fuchsia-multiple-inheritance <fuchsia/multiple-inheritance>`,
